@@ -1,20 +1,30 @@
 .header-unri {
   width: 100%;
-  height: 5rem;
-  background-color: #077d55;
+  height: 3rem;
+  background-color: #510400;
+}
+.header-unri ul {
   display: flex;
+  margin-left: 50rem;
+  margin-right: 2rem;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-}
-.header-unri ul {
-  margin-left: 60rem;
+  list-style: none;
+  height: 100%;
 }
 .header-unri ul li {
-  list-style: none;
-  display: inline-block;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-unri ul .btn-pendaftaran {
+  height: 100%;
+  background-color: #fbad50;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 .header-unri ul li a {
   text-decoration: none;
@@ -25,7 +35,7 @@
 
 .navbar-unri {
   width: 100%;
-  height: 5rem;
+  height: 5.5rem;
   background-color: #f7f7f7;
 }
 
@@ -35,8 +45,9 @@
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+  height: 100%;
 }
 
 .navbar-unri ul li a {
@@ -45,22 +56,17 @@
   font-size: large;
   font-weight: 500;
 }
-.logo-container {
-  width: 11rem;
-  height: 11rem;
-}
 .logo-box {
-  width: 10rem;
-  height: 10rem;
+  width: 9rem;
+  height: 9rem;
   display: flex;
   align-items: center;
   justify-content: center;
   border-bottom-left-radius: 10rem;
   border-bottom-right-radius: 10rem;
-  margin-top: -83px;
+  margin-top: -45px;
 }
 
 .logo-box img {
-  width: 7rem;
-  margin-bottom: 1rem;
+  width: 5.5rem;
 }
